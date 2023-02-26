@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StudentInformation</name>
+    </assembly>
+    <members>
+        <member name="T:StudentInformation.Controllers.AuthController">
+            <summary>
+            This is Authentication section
+            </summary>
+        </member>
+        <member name="T:StudentInformation.Controllers.StudentInfoController">
+            <summary>
+            Only Authorized Users can View Details
+            </summary>
+        </member>
+        <member name="M:StudentInformation.Controllers.StudentInfoController.GetStudentInfo">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+        <member name="M:StudentInformation.Controllers.StudentInfoController.GetStudentInfo(System.Int32)">
+            <summary>
+            Allow both Admin and User
+            </summary>
+        </member>
+        <member name="M:StudentInformation.Controllers.StudentInfoController.PutStudentInfo(System.Int32,StudentInformation.Models.StudentInfo)">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+        <member name="M:StudentInformation.Controllers.StudentInfoController.PostStudentInfo(StudentInformation.Models.StudentInfo)">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+        <member name="M:StudentInformation.Controllers.StudentInfoController.DeleteStudentInfo(System.Int32)">
+            <summary>
+            Allow only Admin 
+            </summary>
+        </member>
+    </members>
+</doc>
